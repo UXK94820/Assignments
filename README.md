@@ -37,6 +37,8 @@ Summary
 GANs are powerful tools for generating fake-but-real-looking data.
 They work by training two models (G and D) to compete and improve.
 This "game" helps both models get better over time.
+
+
 Question 2
 What Is Misinformation in Generative AI?
 Generative AI (like chatbots, image generators, or deepfake tools) can create content that looks real but is false. This can lead to the spread of misinformation — incorrect or misleading content that people may believe is true.
@@ -62,10 +64,13 @@ Summary
 Generative AI can create believable fake content, leading to misinformation.
 Harm can be reduced with tools like watermarking and human oversight.
 Ethical use of AI includes transparency and accountability in how content is made and shared.
+
+
 Question 3
 Basic GAN Implementation-> This Programming details the implementation of a basic Generative Adversarial Network (GAN) for generating handwritten digits from the MNIST dataset using [PyTorch/TensorFlow]. The project involved designing two neural networks: a Generator, which learns to create realistic-looking fake digits from random noise, and a Discriminator, which learns to distinguish between real MNIST digits and the Generator's fakes.
 
 The training process involved an adversarial loop where the Generator tries to fool the Discriminator, and the Discriminator tries to correctly identify real and fake images. The video showcases the evolution of the generated digits at different training stages: Epoch 0 (initial random noise), Epoch 50 (early, blurry shapes), and Epoch 100 (more defined, though imperfect, digits). Additionally, a plot illustrating the loss trends for both the Generator and Discriminator over the training period is presented to provide insight into the learning dynamics of the GAN.
+
 
 Question 4
 Data Poisoning Simulation-> This Programming simulates a data poisoning attack on a sentiment classifier trained on movie reviews. The aim is to show how manipulating training data can harm model performance, especially regarding "UC Berkeley."
@@ -106,6 +111,7 @@ Ethical AI builds trust with users and avoids legal problems for developers.
 Conclusion
 AI models should be carefully trained to avoid using private or copyrighted data without permission.
 This helps keep AI safe, fair, and legal for everyone.
+
 Question 6
 Aequitas Bias Audit Tool – Equal Parity Metric
 What Is Equal Parity?
